@@ -32,6 +32,8 @@ setup(
             'dupradar = multiqc_oms.modules.dupradar:MultiqcModule',
             'expCorr = multiqc_oms.modules.expCorr:MultiqcModule',
             'stringtie = multiqc_oms.modules.stringtie:MultiqcModule',
+            'diffNum = multiqc_oms.modules.diffNum:MultiqcModule',
+            'enrichNum = multiqc_oms.modules.enrichNum:MultiqcModule',
         ],
         'multiqc.templates.v1': [
             'oms = multiqc_oms.templates.oms',
